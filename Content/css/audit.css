@@ -396,6 +396,8 @@
   background: url(../images/ico/icon-calendar.png) no-repeat right 6px center; }
   .report-date:focus {
     background: transparent; }
+  .report-date:hover {
+    background: transparent; }
 
 .report-select {
   width: 100%; }
