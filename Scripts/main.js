@@ -49,6 +49,16 @@ $(document).ready(function(){
       background:"rgb(232 , 232, 232)"
     });
 
+    $(document).on("click", ".hide-details", function(){
+      $(".upload-details").slideToggle();
+      return false;
+    });
+
+    $(document).on("click", ".expand-button", function(){
+      $(".upload-table").slideToggle();
+      return false;
+    });
+
   function formatIco (e) {
     if (!e.id) {
       // console.log("e.id = " + e.id);

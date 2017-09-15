@@ -65,23 +65,34 @@
                     <h4>Filter</h4>
                     <div class="row margin-bottom">
                         <div class="col-md-6">
+                            <label for="form-used" class="client-label padding-left">Client</label>
+                            <select class="audit-select report-select" id="form-used">
+                                <option valuez="Choose client">Select Client</option>
+                                <option value="Choose client1">Choose client</option>
+                                <option value="Choose client2">Choose client</option>
+                                <option value="Choose client3">Choose client</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom">
+                        <div class="col-md-6">
                             <label for="form-used" class="client-label padding-left">Employees</label>
                             <select class="audit-select report-select" id="form-used">
                                 <option valuez="Choose client">All employees</option>
-                                <option value="Choose client1">Emoloyee</option>
-                                <option value="Choose client2">Emoloyee</option>
-                                <option value="Choose client3">Emoloyee</option>
+                                <option value="Choose client1">Choose client</option>
+                                <option value="Choose client2">Choose client</option>
+                                <option value="Choose client3">Choose client</option>
                             </select>
                         </div>
-                        <div class="col-md-6">
-                            <label for="form-used" class="client-label padding-left">Limit by dates of hire from</label>
-                            <input type="date" id="form-used" class="qc-date report-date">
+                        <div class="form-group col-md-6 no-margin">
+                            <label>Limit by dates of hire to</label>
+                            <input type="text" class="form-input input-datepicker" placeholder="Choose date"/>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
-                            <label for="form-used" class="client-label padding-left">Limit by dates of hire to</label>
-                            <input type="date" id="form-used" class="qc-date report-date">
+                        <div class="form-group col-md-6">
+                            <label>Limit by dates of hire from</label>
+                            <input type="text" class="form-input input-datepicker" placeholder="Choose date"/>
                         </div>
                         <div class="col-md-6 checkbox-element padding-top">
                             <input type="checkbox" id="ci9">
